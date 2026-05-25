@@ -1,10 +1,10 @@
 {
   "name": "project-stock-hold",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
     "seed": "ts-node prisma/seed.ts"
